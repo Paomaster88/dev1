@@ -117,7 +117,7 @@
     </div>
     </div>
     <div class="award">
-        <div class="card mb-5">
+        <div class="card my-5">
             <div class="card-body">
                 <h5 class="card-title text-dark">Award</h5>
                 <div class="inner">
@@ -130,8 +130,6 @@
                     เรียนจบระบบ | II200
                     ในวิชาการอ่านภาษาไทย เรียนเกินชั้นเรียน 5 ปีขึ้นไปในวิชาคณิตศาสตร์ วิชาภาษาอังกฤษ EPL
                     และวิชาการอ่านภาษาไทย</p>
-
-
             </div>
         </div>
     </div>
