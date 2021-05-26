@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Laravel-Test || Login')
 @section('main-content')
-    <div class="container mt-5">
+    <div class="container mt-5 ">
         <div class="row">
             <div class="col-md-12">
                 @include('layouts.notification')
@@ -33,5 +33,10 @@
             <small id="emailHelp" class="form-text text-muted">Password: admin@gmail.com</small>
         </form>
     </div>
+
+    <script>
+        $("body").last().addClass("login-page");
+
+    </script>
 
 @endsection

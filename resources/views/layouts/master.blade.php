@@ -17,13 +17,11 @@
                 <!-- Topbar -->
                 @include('layouts.header')
                 <!-- End of Topbar -->
-
-
                 @yield('main-content')
 
+                @include('layouts.footer')
             </div>
             <!-- End of Main Content -->
-            @include('layouts.footer')
         </div>
     </div>
 </body>

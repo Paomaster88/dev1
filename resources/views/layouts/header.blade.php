@@ -14,7 +14,7 @@
                         <span class="small">{{ auth()->user()->firstname_th }}
                             {{ auth()->user()->lastname_th }}</span>
                     </div>
-                    <li class="nav-item dropdown" style="list-style-type:none">
+                    <li class="nav-item dropdown" style="list-style-type:none;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             @if (auth()->user()->image)
@@ -26,7 +26,7 @@
 
                             @endif
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="left:-60%;">
                             <a class="dropdown-item" href="{{ route('logout') }}">
                                 <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                 ออกจากระบบ

@@ -33,5 +33,8 @@
 
         </form>
     </div>
+    <script>
+        $("body").last().addClass("login-page");
 
+    </script>
 @endsection

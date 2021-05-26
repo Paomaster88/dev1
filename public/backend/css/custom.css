@@ -1,10 +1,15 @@
 body {
     background-image: url(../../images/Background.png) !important;
 }
-
+.login-page footer.sticky-footer {
+    position: absolute;
+    bottom: 0;
+}
 footer.sticky-footer {
-    padding: 1rem;
-    flex-shrink: 0;
+    width: 100%;
+    padding: 1rem; /* flex-shrink: 0; */
+    position: relative;
+    bottom: 0;
 }
 
 footer.sticky-footer .copyright {
